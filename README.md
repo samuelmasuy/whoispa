@@ -1,4 +1,4 @@
-# WHOISPA.
+# WHOISPA
 
 ## Description
 
@@ -9,12 +9,20 @@ its letters.
 
 Use `pip3 install -editable .` to install this command line tool.
 
+Depends on: Click, colorama, requests and simplejson.
+
 ## Running
 
 Usage: whoispa [OPTIONS] WORD
 
-Options:
-  --tld TEXT             The tld, default is '.com'
-  --length INTEGER       The lenght of the domain name
-  --sample_size INTEGER  The number of results, default is 20.
-  --help                 Show this message and exit.
+Options:  
+  --tld TEXT             The tld, default is '.com'  
+  --length INTEGER       The lenght of the domain name  
+  --sample_size INTEGER  The number of results, default is 20.  
+  --help                 Show this message and exit.  
+
+## Credits
+
+Code adapted from zachwill/dom.
+
+
