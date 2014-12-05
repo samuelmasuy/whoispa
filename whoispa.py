@@ -39,7 +39,7 @@ def search(query, tld):
     url = "https://domainr.com/api/json/search"
     # query = " ".join(query_domain)
     json_data = requests.get(url, params={'q': query,
-                                          'client_id': 'python_zachwill'})
+                                          'client_id': 'python_neo'})
     return parse(json_data.content, tld)
 
 
